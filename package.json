@@ -1,11 +1,12 @@
 {
   "name": "render-npm",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.2",
+  "main": "./dist/bundle.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name bundle ./src/entry.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
