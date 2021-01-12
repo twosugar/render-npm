@@ -12,7 +12,7 @@ yarn serve
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn build-bundle
 ```
 
 ### Lints and fixes files
@@ -20,5 +20,9 @@ yarn build
 yarn lint
 ```
 
+### 发布
+```
+npm publish
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
